@@ -20,6 +20,11 @@ header {
 .custom {
   font-size: 20px;
   padding: 7px;
+  color: #666;
+}
+
+.custom2 {
+  color: #3369e8;
 }
 
 #share {
@@ -32,7 +37,7 @@ header {
 }
 
 .profile-pic {
-  background: #ddd;
+  background: #85a6f2;
   border-radius: 100%;
 }
 

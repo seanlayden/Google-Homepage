@@ -2,6 +2,40 @@ header {
   float: right;
 }
 
+.info {
+  list-style: none;
+  display: inline;
+  float: right;
+  padding-right: 20px;
+  padding-top: 10px;
+  height: 50px;
+}
+
+.info li {
+  display: inline;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.custom {
+  font-size: 20px;
+  padding: 7px;
+}
+
+#share {
+  background: #eee;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+}
+
+.profile-pic {
+  background: #ddd;
+  border-radius: 100%;
+}
+
 .logo {
   width: 269px;
 }
@@ -23,13 +57,14 @@ header {
   margin-left: auto;
   margin-right: auto;
   padding-right: auto;
-  padding-left: auto;
-  width: 560px;
-  height: 1.5em;
+  padding-left: 10px;
+  width: 570px;
+  height: 2.1em;
   position: relative;
   text-align: left;
   text-align: webkit-left;
   border: 1px solid #ddd;
+  /*background: url("")*/
 }
 
 .search-container {
@@ -37,7 +72,7 @@ header {
   margin-right: auto;
   padding-right: auto;
   padding-left: auto;
-  padding-top: 20px;
+  padding-top: 25px;
   width: 100%;
   position: relative;
   text-align: center;
@@ -57,4 +92,52 @@ header {
   font-size: 11px;
   font-weight: bold;
   padding: 7px;
+}
+
+footer {
+  background: #ddd;
+  height: 100%;
+}
+
+.footer-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background: #eee;
+}
+
+.footer-info li {
+  list-style: none;
+  display: inline;
+  font-size: 13px;
+  color: #666;
+}
+
+#business {
+  float: left;
+  position: absolute;
+  margin-right: 30px;
+  width: 50%;
+  margin: 5px;
+  margin-left: 15px;
+  padding: 5px;
+}
+
+#legal {
+  float: right;
+  position: relative;
+  width: 50%;
+  text-align: right;
+  margin: 5px;
+  margin-right: 15px;
+  padding: 5px;
+}
+
+#business li {
+  padding: 15px;
+}
+
+#legal li {
+  padding: 15px;
 }
